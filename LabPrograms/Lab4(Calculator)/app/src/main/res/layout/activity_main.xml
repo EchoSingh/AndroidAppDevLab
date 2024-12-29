@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="349dp"
+        android:layout_height="54dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="Basic Calculator"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="347dp"
+        android:layout_height="67dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Enter value(s)"
+        android:inputType="text"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/res"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Add"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sin"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Sub"
+        app:layout_constraintBottom_toTopOf="@+id/btn_divide"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_mul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Mul"
+        app:layout_constraintBottom_toTopOf="@+id/btn_clear"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Divide"
+        app:layout_constraintBottom_toTopOf="@+id/btn_mul"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Sin"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cos"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Cos"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sqrt"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_tan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Tan"
+        app:layout_constraintBottom_toTopOf="@+id/btn_log"
+        app:layout_constraintEnd_toStartOf="@+id/btn_divide"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toEndOf="@+id/btn_sin" />
+
+    <Button
+        android:id="@+id/btn_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Log"
+        app:layout_constraintBottom_toTopOf="@+id/btn_power"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mul"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toEndOf="@+id/btn_cos" />
+
+    <Button
+        android:id="@+id/btn_sqrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sqrt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_clear"
+        app:layout_constraintStart_toEndOf="@+id/btn_sqrt" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_factorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Factorial"
+        app:layout_constraintBottom_toTopOf="@+id/btn_tan"
+        app:layout_constraintEnd_toStartOf="@+id/btn_sub"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toEndOf="@+id/btn_add" />
+
+    <Button
+        android:id="@+id/btn_ln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ln"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/res" />
+
+    <Button
+        android:id="@+id/btn_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/res" />
+
+    <Button
+        android:id="@+id/btn_reciprocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reciprocal"
+        app:layout_constraintBottom_toTopOf="@+id/btn_factorial"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ln"
+        app:layout_constraintStart_toEndOf="@+id/btn_exp"
+        app:layout_constraintTop_toBottomOf="@+id/res" />
+
+    <EditText
+        android:id="@+id/res"
+        android:layout_width="347dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="420dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Result"
+        android:inputType="text"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="31dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
