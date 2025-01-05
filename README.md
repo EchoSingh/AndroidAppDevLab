@@ -9,9 +9,21 @@ Welcome to the **AndroidAppDevLab** repository! This repository contains my Seme
 
 ## 📊 Development Time
 
-Time spent developing the calculator application: 
+Time spent developing the Calculator application: 
 
 [![wakatime](https://wakatime.com/badge/user/1b048abc-0515-432a-8342-f8fb218bb013/project/659d2fca-6f7f-4016-9e70-ae4916864340.svg)](https://wakatime.com/badge/user/1b048abc-0515-432a-8342-f8fb218bb013/project/659d2fca-6f7f-4016-9e70-ae4916864340)
+
+Time spent developing the Activity Lifecycle application: 
+
+[![wakatime](https://wakatime.com/badge/user/1b048abc-0515-432a-8342-f8fb218bb013/project/d0899d9f-5d0c-42f0-b9be-3e1b82a76c63.svg)](https://wakatime.com/badge/user/1b048abc-0515-432a-8342-f8fb218bb013/project/d0899d9f-5d0c-42f0-b9be-3e1b82a76c63)
+
+Time spent developing the Fragmentation application: 
+
+[![wakatime](https://wakatime.com/badge/user/1b048abc-0515-432a-8342-f8fb218bb013/project/557fd730-74c8-4a62-ba0e-c0c4c9515b71.svg)](https://wakatime.com/badge/user/1b048abc-0515-432a-8342-f8fb218bb013/project/557fd730-74c8-4a62-ba0e-c0c4c9515b71)
+
+Time spent developing the Navigate application:
+
+[![wakatime](https://wakatime.com/badge/user/1b048abc-0515-432a-8342-f8fb218bb013/project/9d1a6e6d-da40-4116-9dcd-f7027c28683e.svg)](https://wakatime.com/badge/user/1b048abc-0515-432a-8342-f8fb218bb013/project/9d1a6e6d-da40-4116-9dcd-f7027c28683e)
 
 ## 🚀 Features
 
