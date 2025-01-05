@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Welcome to second aactivity"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <Button
+        android:id="@+id/bttn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="OpenHomePage"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="444dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
