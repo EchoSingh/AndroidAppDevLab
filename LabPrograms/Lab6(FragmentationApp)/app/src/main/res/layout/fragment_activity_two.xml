@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_activity_two"
+    android:background="#EFDECD">
+
+
+    <TextView
+        android:id="@+id/f2tv1"
+        android:layout_width="158dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:text="Fragment Two"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bttn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:fontFamily="cursive"
+        android:text="Click Me"
+        android:textSize="25sp" />
+</FrameLayout>
